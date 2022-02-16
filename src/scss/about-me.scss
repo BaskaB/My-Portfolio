@@ -1,0 +1,23 @@
+section.about-me {
+    background: linear-gradient(180deg, #03112B 0%, #08192A 100%);
+    display: flex;
+    flex-wrap: wrap-reverse;
+    .img-wrap {
+        height: auto;
+        width: 500px;
+        padding: 1rem;
+        margin: auto;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .text-wrap {
+        width: 800px;
+        padding: 1rem;
+        margin: auto;
+        h1 {
+            color: #fce480;;
+        }
+    }
+}
