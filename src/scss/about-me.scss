@@ -18,6 +18,19 @@ section.about-me {
         margin: auto;
         h1 {
             color: #fce480;;
+            @media #{$xmd} {
+                font-size: 3rem;
+            }
+        }
+        h3 {
+            @media #{$xmd} {
+                font-size: 2rem;
+            }
+        }
+        p {
+            @media #{$xmd} {
+                font-size: 1.3rem;
+            }
         }
     }
 }

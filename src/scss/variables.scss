@@ -1,0 +1,29 @@
+$xs: 'only screen and (max-width: 576px)';
+$sm: 'only screen and (min-width: 576px)';
+$xmd: 'only screen and (max-width: 768px)';
+$smd: 'only screen and (max-width: 800px)';
+$slg: 'only screen and (max-width: 950px)';
+$xlg: 'only screen and (max-width: 1250px)';
+$xxlg: 'only screen and (min-width: 1251px)';
+$xxxlg: 'only screen and (min-width: 1440px)';
+$xxxxlg: 'only screen and (min-width: 1660px)';
+$xxxxxlg: 'only screen and (min-width: 1880px)';
+$md: 'only screen and (min-width: 768px)';
+$lg: 'only screen and (min-width: 992px)';
+$xl: 'only screen and (min-width: 1200px)';
+$xxl: 'only screen and (min-width: 1366px)';
+
+.pc {
+  display: none;
+}
+.mobile {
+  display: block;
+}
+@media #{$md} {
+  .pc {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+}

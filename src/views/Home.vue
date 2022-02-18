@@ -75,7 +75,7 @@
           </div>
           <div class="flip-card-back">
             <div class="text-wrap">
-            <h3>Graphic designe</h3>
+            <h3>Graphic design</h3>
             <p>Shortbread cookie icing toffee toffee halvah cake topping jelly beans. Jelly-o macaroon carrot cake gummies jelly-o dessert. Pie topping fruitcake cupcake bonbon. </p>
             </div>
           </div>
@@ -102,15 +102,27 @@
     </div>
     </div>
   </section>
+  <ProjectsSlider />
+<footer>
+  <div class="text-wrap">
+    <h3>If you liked my portfolio, you can contact me on</h3>
+    <a href="mailto:barb.babicova@gmail.com?Subject=Hi, You have an amazing porfolio!">barb.babicova@gmail.com</a>
+  </div>
+  <div class="img-wrap">
+    <img src="/images/footer/heart.png" alt="Heart">
+  </div>
+</footer>
 </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import ProjectsSlider from "../components/ProjectsSlider.vue"
 
 export default {
   name: 'Home',
   components: {
+    ProjectsSlider
   }
 }
 </script>
