@@ -102,7 +102,7 @@
     </div>
     </div>
   </section>
-  <ProjectsSlider />
+  <Projects />
 <footer>
   <div class="text-wrap">
     <h3>If you liked my portfolio, you can contact me on</h3>
@@ -117,12 +117,12 @@
 
 <script>
 // @ is an alias to /src
-import ProjectsSlider from "../components/ProjectsSlider.vue"
+import Projects from "../components/Projects.vue"
 
 export default {
   name: 'Home',
   components: {
-    ProjectsSlider
+    Projects
   }
 }
 </script>
