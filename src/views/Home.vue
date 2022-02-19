@@ -2,21 +2,21 @@
 <div class="home">
   <header>
     <div class="bg-wrap">
-      <img src="/images/header/bg.png" alt="">
+      <img src="/images/header/bg.png" alt="Sunset">
     </div>
     <div class="header-overlay">
       <div class="logo-wrap">
-        <img src="/images/header/logo.png" alt="">
+        <img src="/images/header/logo.png" alt="Baška-logo">
       </div>
       <div class="social-wrap">
-        <a href="#" class="ig-wrap">
-          <img src="/images/header/instagram.png" alt="">
+        <a href="https://www.instagram.com/_zajkousko_/" target="_blank" class="ig-wrap">
+          <img src="/images/header/instagram.png" alt="Instagram-logo">
         </a>
-        <a href="#" class="in-wrap">
-          <img src="/images/header/linkedin.png" alt="">
+        <a href="https://www.linkedin.com/in/baska-babicova/" target="_blank" class="in-wrap">
+          <img src="/images/header/linkedin.png" alt="Linkedin-logo">
         </a>
-        <a href="#" class="git-wrap">
-          <img src="/images/header/git.png" alt="">
+        <a href="https://github.com/BaskaB" target="_blank" class="git-wrap">
+          <img src="/images/header/git.png" alt="Github-logo">
         </a>
       </div>
       <div class="menu-wrap">
@@ -28,17 +28,17 @@
   </header>
   <section class="about-me">
     <div class="img-wrap">
-      <img src="/images/about-me/girl.png" alt="">
+      <img src="/images/about-me/girl.png" alt="Girl-photo">
     </div>
     <div class="text-wrap">
       <h1>About me</h1>
-      <h3>Hi, my name is Baška! I am junior frontend developer and also a 3D graphic...</h3>
-      <p>Tiramisu cheesecake bonbon toffee ice cream candy. Candy canes chocolate cake soufflé jujubes biscuit. Ice cream gummies sweet danish brownie liquorice powder bear claw. Muffin gingerbread cheesecake chupa chups soufflé wafer brownie jelly-o. Pie wafer marzipan sweet halvah. Cake soufflé chocolate bar dessert pudding carrot cake.</p>
+      <h3>Hi, my name is Baška! I am junior frontend developer and also a graphic designer...</h3>
+      <p>In my opinion, every job is special opportunity to learn something new and that's what I'am looking for. My goal is to learn new technologies and get better with those I've already worked before. Currently I'am a freelancer since 2020 and I really love to work on meaningful projects.</p>
     </div>
   </section>
   <section class="skills">
     <div class="bg-wrap">
-      <img src="/images/skills/skills-bg.png" alt="">
+      <img src="/images/skills/skills-bg.png" alt="Dark forest">
     </div>
     <div class="skills-content">
     <div class="title-wrap">
@@ -52,13 +52,13 @@
             <h3>CODING</h3>
             </div>
             <div class="img-wrap">
-            <img src="/images/skills/flip-cards/coding-icon.png" alt="">
+            <img src="/images/skills/flip-cards/coding-icon.png" alt="Coding-logo">
             </div>
           </div>
           <div class="flip-card-back">
             <div class="text-wrap">
             <h3>Frontend development</h3>
-            <p>Icing croissant topping chocolate bar soufflé.Pie topping fruitcake cupcake bonbon. Pudding apple pie pudding chocolate bar donut pastry tiramisu brownie.</p>
+            <p>My language of choice is javascript, most of my web apps uses Vue.js with Scss. I see myself as frontend developer but php is no fear for me.</p>
             </div>
           </div>
         </div>
@@ -70,13 +70,13 @@
             <h3>GRAPHIC</h3>
             </div>
             <div class="img-wrap">
-            <img src="/images/skills/flip-cards/pen.png" alt="">
+            <img src="/images/skills/flip-cards/pen.png" alt="Graphic designe-logo">
             </div>
           </div>
           <div class="flip-card-back">
             <div class="text-wrap">
             <h3>Graphic design</h3>
-            <p>Shortbread cookie icing toffee toffee halvah cake topping jelly beans. Jelly-o macaroon carrot cake gummies jelly-o dessert. Pie topping fruitcake cupcake bonbon. </p>
+            <p>Graphic design is my favorite hobby. After many completed courses, I spend most of the time in Blender. I love creating, modeling and sculpting objects, it is so much fun. On the other hand, I do not despise Photoshop or Illustrator.</p>
             </div>
           </div>
         </div>
@@ -88,13 +88,13 @@
             <h3>UI</h3>
             </div>
             <div class="img-wrap">
-            <img src="/images/skills/flip-cards/UI.png" alt="">
+            <img src="/images/skills/flip-cards/UI.png" alt="UI-logo">
             </div>
           </div>
           <div class="flip-card-back">
             <div class="text-wrap">
             <h3>User interface</h3>
-            <p> Pudding apple pie pudding chocolate bar donut pastry tiramisu brownie.</p>
+            <p>Every page has to be special and that is my third super power. My head is full of great ideas. I know how to match colors and design user friendly website in no time. This portfolio is my proof.</p>
             </div>
           </div>
         </div>
