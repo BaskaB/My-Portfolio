@@ -1,24 +1,25 @@
 section.projects {
   background-color: #030d1c;
+  overflow-x: hidden;
   padding: 3rem;
-   @media #{$xxl} {
-       padding-top: 15rem;
-   }
+  @media #{$xxl} {
+    padding-top: 15rem;
+  }
   .project-wrap {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
     @media #{$xxl} {
-        margin-top: -10rem;
+      margin-top: -10rem;
     }
 
     &:nth-of-type(even) {
-        flex-direction: row-reverse;
-        .text-wrap {
-            text-align: right;
-        }
+      flex-direction: row-reverse;
+      .text-wrap {
+        text-align: right;
+      }
     }
-    
+
     .img-wrap {
       width: 400px;
       max-width: 100%;
@@ -29,19 +30,19 @@ section.projects {
       }
     }
     .text-wrap {
-        max-width: 100%;
-        width: 500px;
-        h2 {
-            margin-bottom: 1rem;
+      max-width: 100%;
+      width: 500px;
+      h2 {
+        margin-bottom: 1rem;
+      }
+      p {
+        a {
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            color: rgb(194, 194, 194);
+          }
         }
-        p {
-            a {
-                transition: all 0.2s ease-in-out;
-                &:hover {
-                    color: rgb(194, 194, 194);
-                }
-            }
-        }
+      }
     }
   }
 }

@@ -1,12 +1,23 @@
 <template>
-  <section class="projects">
-    <div v-for="project of projects" :key="project.name" class="project-wrap">
+  <section class="projects" id="projects">
+    <div
+      v-for="project of projects"
+      :key="project.name"
+      class="project-wrap"
+      :data-aos="project.aos"
+      data-aos-duration="1000"
+      data-aos-anchor-placement="center-bottom"
+    >
       <div class="img-wrap">
         <img :src="project.image" alt="Project photo in phone" />
       </div>
       <div class="text-wrap">
         <h2>{{ project.title }}</h2>
-        <p>{{ project.text }} <br/><a :href="project.link">{{project.linkText}}</a> </p>
+        <p>
+          {{ project.text }} <br /><a :href="project.link" target="blank">{{
+            project.linkText
+          }}</a>
+        </p>
       </div>
     </div>
   </section>
@@ -23,6 +34,7 @@ export default {
           text: "Awesomely designed single web page for very ambitious upcoming NFT project.",
           link: "https://entercyberia.com/",
           linkText: "See for yourself.",
+          aos: "fade-left",
         },
         {
           image: "/images/projects/thermostar.png",
@@ -30,6 +42,7 @@ export default {
           text: "Simple product presentation website about steam pressure cleaners. ",
           link: "https://thermostar.sk/",
           linkText: "Have a look. ",
+          aos: "fade-right",
         },
         {
           image: "/images/projects/kopstav.png",
@@ -37,6 +50,7 @@ export default {
           text: "Excavation company website, that contains simple objects like gallery or contact form. ",
           link: "https://www.cyrokopstav.sk/",
           linkText: "Check it out",
+          aos: "fade-left",
         },
       ],
     };
