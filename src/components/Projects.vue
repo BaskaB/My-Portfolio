@@ -9,7 +9,7 @@
       data-aos-anchor-placement="center-bottom"
     >
       <div class="img-wrap">
-        <img :src="project.image" alt="Project photo in phone" />
+        <img v-lazy="project.image" alt="Project photo in phone" />
       </div>
       <div class="text-wrap">
         <h2>{{ project.title }}</h2>

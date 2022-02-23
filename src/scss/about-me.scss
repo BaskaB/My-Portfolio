@@ -2,6 +2,7 @@ section.about-me {
   background: linear-gradient(180deg, #03112b 0%, #08192a 100%);
   display: flex;
   flex-wrap: wrap-reverse;
+  overflow-x: hidden;
   .img-wrap {
     height: auto;
     width: 500px;

@@ -2,11 +2,11 @@
   <div class="home">
     <header>
       <div class="bg-wrap">
-        <img src="/images/header/bg.png" alt="Sunset" />
+        <img v-lazy="'/images/header/bg.jpg'" alt="Sunset" />
       </div>
       <div class="header-overlay">
         <div data-aos="fade-right" class="logo-wrap">
-          <img src="/images/header/logo.png" alt="Baška-logo" />
+          <img v-lazy="'/images/header/logo.png'" alt="Baška-logo" />
         </div>
         <div class="social-wrap">
           <a
@@ -15,7 +15,7 @@
             target="_blank"
             class="ig-wrap"
           >
-            <img src="/images/header/instagram.png" alt="Instagram-logo" />
+            <img v-lazy="'/images/header/instagram.png'" alt="Instagram-logo" />
           </a>
           <a
             data-aos="fade-left"
@@ -23,7 +23,7 @@
             target="_blank"
             class="in-wrap"
           >
-            <img src="/images/header/linkedin.png" alt="Linkedin-logo" />
+            <img v-lazy="'/images/header/linkedin.png'" alt="Linkedin-logo" />
           </a>
           <a
             data-aos="fade-left"
@@ -31,7 +31,7 @@
             target="_blank"
             class="git-wrap"
           >
-            <img src="/images/header/git.png" alt="Github-logo" />
+            <img v-lazy="'/images/header/git.png'" alt="Github-logo" />
           </a>
         </div>
         <div data-aos="fade-right" class="menu-wrap">
@@ -43,7 +43,7 @@
     </header>
     <section class="about-me" id="about-me">
       <div class="img-wrap" data-aos="fade-right">
-        <img src="/images/about-me/girl.png" alt="Girl-photo" />
+        <img v-lazy="'/images/about-me/girl.png'" alt="Girl-photo" />
       </div>
       <div class="text-wrap">
         <h1 data-aos="fade-up">About me</h1>
@@ -62,7 +62,7 @@
     </section>
     <section class="skills" id="skills">
       <div class="bg-wrap">
-        <img src="/images/skills/skills-bg.png" alt="Dark forest" />
+        <img v-lazy="'/images/skills/skills-bg.jpg'" alt="Dark forest" />
       </div>
       <div class="skills-content">
         <div class="title-wrap">
@@ -77,7 +77,7 @@
                 </div>
                 <div class="img-wrap">
                   <img
-                    src="/images/skills/flip-cards/coding-icon.png"
+                    v-lazy="'/images/skills/flip-cards/coding-icon.png'"
                     alt="Coding-logo"
                   />
                 </div>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="img-wrap">
                   <img
-                    src="/images/skills/flip-cards/pen.png"
+                    v-lazy="'/images/skills/flip-cards/pen.png'"
                     alt="Graphic designe-logo"
                   />
                 </div>
@@ -128,7 +128,7 @@
                   <h3>UI</h3>
                 </div>
                 <div class="img-wrap">
-                  <img src="/images/skills/flip-cards/UI.png" alt="UI-logo" />
+                  <img v-lazy="'/images/skills/flip-cards/UI.png'" alt="UI-logo" />
                 </div>
               </div>
               <div class="flip-card-back">
@@ -150,21 +150,21 @@
     <Projects />
     <footer>
       <div class="text-wrap">
-        <h3>If you liked my portfolio, you can contact me on</h3>
+        <h3>If you like my portfolio, just send me an email :)</h3>
         <a
           href="mailto:barb.babicova@gmail.com?Subject=Hi, You have an amazing porfolio!"
           >barb.babicova@gmail.com</a
         >
       </div>
       <div class="img-wrap">
-        <img src="/images/footer/heart.png" alt="Heart" />
+        <img v-lazy="'/images/footer/heart.png'" alt="Heart" />
       </div>
     </footer>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+// @ is an alias to /v-lazy
 import Projects from "../components/Projects.vue";
 
 export default {
