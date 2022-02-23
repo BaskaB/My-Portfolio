@@ -2,39 +2,39 @@
   <div class="home">
     <header>
       <div class="bg-wrap">
-        <img v-lazy="'/images/header/bg.jpg'" alt="Sunset" />
+        <img v-lazy="'/images/header/bg.jpg'"  alt="Sunset" />
       </div>
       <div class="header-overlay">
-        <div data-aos="fade-right" class="logo-wrap">
-          <img v-lazy="'/images/header/logo.png'" alt="Baška-logo" />
+        <div data-aos="fade-right" data-aos-duration="800" data-aos-delay="400" class="logo-wrap">
+          <img :src="'/images/header/logo.png'" alt="Baška-logo" />
         </div>
         <div class="social-wrap">
           <a
-            data-aos="fade-left"
+            data-aos="fade-left" data-aos-duration="800" data-aos-delay="600"
             href="https://www.instagram.com/_zajkousko_/"
             target="_blank"
             class="ig-wrap"
           >
-            <img v-lazy="'/images/header/instagram.png'" alt="Instagram-logo" />
+            <img :src="'/images/header/instagram.png'" alt="Instagram-logo" />
           </a>
           <a
-            data-aos="fade-left"
+            data-aos="fade-left" data-aos-duration="800" data-aos-delay="800"
             href="https://www.linkedin.com/in/baska-babicova/"
             target="_blank"
             class="in-wrap"
           >
-            <img v-lazy="'/images/header/linkedin.png'" alt="Linkedin-logo" />
+            <img :src="'/images/header/linkedin.png'" alt="Linkedin-logo" />
           </a>
           <a
-            data-aos="fade-left"
+            data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000"
             href="https://github.com/BaskaB"
             target="_blank"
             class="git-wrap"
           >
-            <img v-lazy="'/images/header/git.png'" alt="Github-logo" />
+            <img :src="'/images/header/git.png'" alt="Github-logo" />
           </a>
         </div>
-        <div data-aos="fade-right" class="menu-wrap">
+        <div data-aos="fade-right" data-aos-duration="800" data-aos-delay="1200" class="menu-wrap">
           <a href="#about-me">About me</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
